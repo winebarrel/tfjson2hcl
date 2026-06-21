@@ -32,7 +32,7 @@ Flags:
       --version
 ```
 
-By default the rewritten files are printed to stdout. Pass `-i` to overwrite files on disk. Only files that actually change are emitted.
+By default the rewritten files are printed to stdout, each preceded by a `### <path> ###` header. Pass `-i` to overwrite files on disk instead. Only files that actually change are emitted.
 
 ## Example
 
