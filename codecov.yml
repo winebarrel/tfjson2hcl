@@ -1,0 +1,2 @@
+ignore:
+  - "cmd/tfjson2hcl/main.go"
